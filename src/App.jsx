@@ -8,12 +8,11 @@ import "./app.scss";
 import { useState } from "react";
 
 function App() {
-  const [menuOpenet, setMenueOpen] = useState;
-
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
       <div className="app">
-        <Topbar menuOpenet={menuOpenet} setMenueOpen={setMenueOpen} />
+        <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div className="sections">
           <Intro />
           <Portofolio />
