@@ -43,6 +43,13 @@
       }
       h3 {
         font-size: 30px;
+
+        span {
+          font-size: inherit;
+          color: rgb(242, 179, 98);
+          margin-right: 9px;
+          text-decoration: underline;
+        }
       }
     }
     a {
