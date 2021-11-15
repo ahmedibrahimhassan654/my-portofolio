@@ -48,7 +48,6 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
-    
 
         span {
           width: 100%;
@@ -63,7 +62,20 @@
   &.active {
     background-color: $mainColor;
     color: white;
-
-    
+    .hamburger {
+      span {
+        &:first-child {
+          background-color: beige;
+          transform: rotate(45deg);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:last-child {
+          background-color: rgb(127, 255, 0);
+          transform: rotate(-45deg);
+        }
+      }
+    }
   }
 }
