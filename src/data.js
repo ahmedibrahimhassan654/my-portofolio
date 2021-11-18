@@ -1,12 +1,5 @@
 export const MERNPortfolio = [
   {
-    id: 1,
-    title: "netflix-mern-app",
-    img: "https://images.ctfassets.net/4cd45et68cgf/2Dw84LjrNM9RE1zEeYTsU5/ee1dfa7815113172a82f88936ee4a513/______-___-netflix_-_______-________-_______.jpg?w=2560",
-    github: "https://github.com/ahmedibrahimhassan654/netflix-mern-app",
-    skills: ["node -", " react-", "bootstrab- ", "mongo- ", "express "],
-  },
-  {
     id: 2,
     title: "online learning app (private-repo)",
     img: "https://w7.pngwing.com/pngs/27/972/png-transparent-pedagogy-massive-open-online-course-education-university-student-student.png",
@@ -79,9 +72,10 @@ export const NodeJsBackEnd = [
 export const ReactJs = [
   {
     id: 1,
-    title: "Design Social Media App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    skills: ["react "],
+    title: "netflix-mern-app",
+    img: "https://images.ctfassets.net/4cd45et68cgf/2Dw84LjrNM9RE1zEeYTsU5/ee1dfa7815113172a82f88936ee4a513/______-___-netflix_-_______-________-_______.jpg?w=2560",
+    github: "https://github.com/ahmedibrahimhassan654/netflix-mern-app",
+    skills: ["node -", " react-", "bootstrab- ", "mongo- ", "express "],
   },
   {
     id: 2,
