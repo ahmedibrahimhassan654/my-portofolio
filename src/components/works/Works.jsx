@@ -68,7 +68,10 @@ export default function Works() {
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
 
-                  <a onClick={() => window.open(`${d.github}`, "_blank")}>
+                  <a
+                    href={() => window.open(`${d.github}`, "_blank")}
+                    onClick={() => window.open(`${d.github}`, "_blank")}
+                  >
                     Github
                   </a>
                 </div>

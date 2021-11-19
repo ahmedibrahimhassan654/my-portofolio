@@ -57,7 +57,12 @@ const Portofolio = () => {
           <div className="item">
             <img src={d.img} alt="" />
             <h3>{d.title}</h3>
-            <a onClick={() => window.open(`${d.github}`, "_blank")}>Github</a>
+            <a
+              href={() => window.open(`${d.github}`, "_blank")}
+              onClick={() => window.open(`${d.github}`, "_blank")}
+            >
+              Github
+            </a>
             <div className="tec">
               <p>{d.skills}</p>
             </div>
